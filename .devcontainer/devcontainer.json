@@ -1,7 +1,4 @@
 {
     "name": "python-devcontainer",
-    "build": {
-        "dockerfile": "./Dockerfile",
-        "context": "."
-    }
+    "image": "python:3.11-bookworm"
 }
