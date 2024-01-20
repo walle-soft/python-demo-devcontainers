@@ -1,4 +1,7 @@
 {
     "name": "python-devcontainer",
-    "image": "python:3.11-bookworm"
+    "image": "python:3.11-bookworm",
+    "runArgs": [
+        "--gpus=all"
+    ]
 }
